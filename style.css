@@ -1,0 +1,53 @@
+body {
+    /* Gradient background for a cooler look */
+    background: linear-gradient(135deg, #b87333 0%, #f7c873 100%);
+    min-height: 100vh;
+}
+.navbar {
+    width: 100%;
+    background-color: #000;
+    overflow: auto;
+    padding: 0.5em 0;
+}
+.navbar a {
+    float: left;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background 0.2s;
+}
+.navbar a:hover {
+    background-color: #333;
+}
+.profile-background {
+    width: 100vw;
+    height: 350px;
+    background: url('Profile_Background.jpg') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+/* Add a subtle glass effect to the black box */
+.about-box {
+    background: rgba(0,0,0,0.85);
+    margin: 30px auto 0 auto;
+    padding: 30px 20px;
+    max-width: 95vw;
+    border-radius: 12px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.3);
+    text-align: center;
+    backdrop-filter: blur(2px);
+}
